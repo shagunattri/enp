@@ -1,0 +1,32 @@
+h1 {
+  color: #f4f4f4;
+  font-size: 24px;
+}
+p {
+  color: orange;
+  font-weight: bold;
+}
+
+h1 {
+  background: blueviolet;
+}
+
+#head {
+  color: brown;
+  background: grey;
+}
+
+h3 {
+  background: grey;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+title{
+    font-size: 32px; 
+}
