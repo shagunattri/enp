@@ -1,0 +1,39 @@
+- A platform which allows us to run JS on a computer/server
+- Read,delete and update files
+- easily communicate with a database
+- uses js
+- very fast (runs on v8 engine and non blocking code )
+- huge ecosystem
+- great for real time services
+
+Inner Workings
+- V8 engine
+- Modules
+- Event Emitter
+- The fs
+
+server
+- Routing
+- Express
+- Templating
+
+V8 Engine
+- a Js engine takes Js and converts it into something it does understand.
+
+Machine Code
+- Js
+- C++
+- Assembly language
+- Machine Code 
+
+nodejs is written in C++
+
+# https://v8.dev/
+
+Nodejs with V8 
+
+js 
+|
+C++ Nodejs written in C++ hooks with V8 and convert into 
+|
+machine code

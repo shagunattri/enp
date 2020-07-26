@@ -9,6 +9,7 @@ var adder = function(a,b){
 var pi = 3.142;
 
 //the basic/default to do it 
+module.exports = counter;
 module.exports.counter = counter;
 module.exports.adder = adder;
 module.exports.pi = pi;
