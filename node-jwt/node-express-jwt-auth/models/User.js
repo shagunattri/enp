@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 //schema
-
 const userSchema = new mongoose.Schema({
     email: {
         type:String,
@@ -12,12 +11,12 @@ const userSchema = new mongoose.Schema({
     password: {
         type:String,
         required:true,
-        minlength:8
+        minlength:6
     },
 });
 
 
 //model to be singular of database collection as mongo plurals it
-const User = mongoose.model('user')
+const User = mongoose.model('user',userSchema);
 
 module.exports = User;
