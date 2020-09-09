@@ -51,3 +51,8 @@ using hooks and bcrypt to hash passwords with salt.
 
 ### Auth Views
 
+Creatinf the frontend of login and signup pages
+
+### Cookie Primer
+
+Use `cookie-parser` to parse cookies to pages and set options using the objects from the cookie parser.
