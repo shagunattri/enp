@@ -44,3 +44,10 @@ Hashing user passwords using bcrypt and mongoose hooks.
 Mongoose hook is a special fn which fires after a certain mogoose event happens.
 
 fire functions before and after a event to carry out hashing of paswords before we save it to the db.
+
+### Bcrypt
+
+using hooks and bcrypt to hash passwords with salt.
+
+### Auth Views
+
