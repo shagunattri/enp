@@ -39,7 +39,7 @@ Update User schema to reflect error messages and error out double entry of exist
 
 ### Mongoose Hooks
 
-Hashing user passwords using bcrypt and mongoose hooks.
+Hashing user passwords using bcrypt and pre save mongoose hooks.
 
 Mongoose hook is a special fn which fires after a certain mogoose event happens.
 
@@ -56,3 +56,26 @@ Creatinf the frontend of login and signup pages
 ### Cookie Primer
 
 Use `cookie-parser` to parse cookies to pages and set options using the objects from the cookie parser.
+
+
+### JWT Tokens
+
+Never expose state changing endpoints to prevent CSRF.
+
+[JWT](jwt.io)
+
+
+>JWT Signing 
+
+- Header
+    - Tells the server what type of signature is being used(meta).
+- Payload
+    - Used to identify the user(eg.contains user id)
+- Signature
+    - Makes the token secure(like a stamp of authenticity).
+
+Then the header and payload are hashed together with a secret `secure secret string` and then creates the signature.
+
+The end format to the token is `Headers.Payload.Signature`.
+
+New user signup and create jwt token for a new signup using the `jsonwebtokens` library to create a token for a new signup in teh auth controller and set the properties to it.
