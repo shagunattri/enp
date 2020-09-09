@@ -1,4 +1,4 @@
-### 3 Testing Routes
+### Testing Routes
 
 Simulating requests using postman and testing routes to handle GET nad POST requests
 
@@ -20,7 +20,7 @@ The same can be done for `signup_post` with the data of email and password.
 
 Then destructuring it to get email,password from the req.body.
 
-```
+```js
 const {email,password} = req.body;
     console.log(email,password);
 ```
@@ -31,3 +31,10 @@ create schema for mongoose and for the db in models/user.js
 and setup authController to use try catch for add data to the database and report back the errors
 
 ### Mongoose Validation
+
+Validate errors and handle error message for specific user input error and validate email using the validator package.
+
+Update User schema to reflect error messages and error out double entry of existing email using the error code.
+
+
+### 
