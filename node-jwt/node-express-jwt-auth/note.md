@@ -37,4 +37,10 @@ Validate errors and handle error message for specific user input error and valid
 Update User schema to reflect error messages and error out double entry of existing email using the error code.
 
 
-### 
+### Mongoose Hooks
+
+Hashing user passwords using bcrypt and mongoose hooks.
+
+Mongoose hook is a special fn which fires after a certain mogoose event happens.
+
+fire functions before and after a event to carry out hashing of paswords before we save it to the db.
