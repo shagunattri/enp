@@ -79,3 +79,14 @@ Then the header and payload are hashed together with a secret `secure secret str
 The end format to the token is `Headers.Payload.Signature`.
 
 New user signup and create jwt token for a new signup using the `jsonwebtokens` library to create a token for a new signup in teh auth controller and set the properties to it.
+
+### SignUp
+
+Look for email and password errors.
+
+On successful sigin redirect to the root page `/`
+
+### Login
+
+
+
