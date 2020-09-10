@@ -88,5 +88,5 @@ On successful sigin redirect to the root page `/`
 
 ### Login
 
-
+Logging users in using the bcrypt library to hash passwords and compare in the db for records and successfully login
 
